@@ -1,0 +1,43 @@
+.table tbody tr {
+    background-color: rgb(172, 159, 138);
+}
+
+.table tbody tr td:first-child {
+    width: 10%;
+}
+
+.table tbody tr td:not(:first-child) {
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 3%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgba(192, 74, 27, 0.87);
+}
+
+.hdr {
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 3%;
+}
+
+.succ {
+    text-align: center;
+    color: green;
+    margin-right: 30px;
+}
+
+.row {
+    background-color: rgba(153, 148, 141, 0.685);
+    text-align: left;
+}
+
+.row:hover {
+    background-color: rgb(116, 110, 101);
+}
+
+.card-title {
+    color: black;
+}
